@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ButtonBox from "./ButtonBox";
 
 const QuoteBox = ({ quote }) => {
   return (
