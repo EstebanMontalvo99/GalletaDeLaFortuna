@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
-import quotes from "./json/quotes.json";
+import quotes from "./utils/quotes.json";
 import QuoteBox from "./components/QuoteBox";
 import ButtonBox from "./components/ButtonBox";
-import image from "./json/images.json";
+import image from "./utils/images.json";
 function App() {
   const randomElementFromArray = (arr) => {
     const randomIndex = Math.floor([Math.random() * arr.length]);
