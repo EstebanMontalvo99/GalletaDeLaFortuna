@@ -16,10 +16,14 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 1px 10px 5px #0005;
 }
+.title {
+  text-align: center;
+}
 
 .box {
   background-color: white;
   max-width: 95%;
+  max-height: 500px;
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 1px 10px 5px #0005;
@@ -56,4 +60,22 @@ h1 {
 .box__btn:hover {
   transform: scale(1.1);
   box-shadow: 0 0 0.8rem #0003;
+}
+@media (min-width: 768px) {
+  .App {
+    background-size: 100vw 100vh;
+    gap: 4rem;
+    justify-content: flex-start;
+  }
+  .title {
+    padding-top: 5rem;
+  }
+  .box {
+    max-width: 50%;
+  }
+  .box__btn {
+    width: 20%;
+    position: absolute;
+    margin-top: 32rem;
+  }
 }

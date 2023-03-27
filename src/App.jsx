@@ -17,7 +17,10 @@ function App() {
   const [img, setImg] = useState(randomElementFromArray(image));
   return (
     <div className="App" style={{ backgroundImage: img.img }}>
-      <h1>GALLETA DE LA FORTUNA</h1>
+      <div className="title">
+        <h1>GALLETAS DE LA</h1>
+        <h1> FORTUNA</h1>
+      </div>
       <QuoteBox quote={quote} />
       <ButtonBox handleClick={handleClick} color={img.color} />
     </div>
