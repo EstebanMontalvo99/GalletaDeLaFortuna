@@ -1,18 +1,18 @@
 [
   {
-    "img": "url(\"/assets/images/fondo1.jpg\")",
+    "img": "url(\"https://github.com/EstebanMontalvo99/GalletaDeLaFortuna/blob/master/src/assets/images/fondo1.jpg\")",
     "color": "rgb(144, 238, 144)"
   },
   {
-    "img": "url(\"/assets/images/fondo2.jpg\")",
+    "img": "url(\"/src/assets/images/fondo2.jpg\")",
     "color": "RGB(221, 160, 221)"
   },
   {
-    "img": "url(\"/assets/images/fondo3.jpg\")",
+    "img": "url(\"/src/assets/images/fondo3.jpg\")",
     "color": "RGB(255, 165, 55)"
   },
   {
-    "img": "url(\"/assets/images/fondo4.jpg\")",
+    "img": "url(\"/src/assets/images/fondo4.jpg\")",
     "color": "RGB(173, 216, 230)"
   }
 ]
